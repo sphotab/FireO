@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='2.2.2',
+    version='2.2.3',
 
     description="FireO ORM is specifically designed for the Google's Firestore.",
     long_description=long_description,
@@ -45,7 +45,7 @@ setup(
         "Operating System :: OS Independent",
 
         # Pick your license as you wish (should match "license" above)
-        "License :: OSI Approved :: Apache Software License",
+        #"License :: OSI Approved :: Apache Software License",
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
@@ -54,7 +54,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11"
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ],
 
     # What does your project relate to?
@@ -69,5 +70,5 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['google-cloud-firestore==2.11.1,<=2.12.0'],
+    install_requires=['google-cloud-firestore==2.11.1,<=2.20.1'],
 )
